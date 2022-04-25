@@ -1,0 +1,81 @@
+@media (max-width: 1800px){
+    .sidebar {
+        display: none;
+    }
+
+    main.sidebar-opened{
+        margin-left: 22%;
+    }
+
+    .rowDanger.sidebar-opened, .rowIndicators.sidebar-opened{
+        padding-top: 26px;
+    }
+
+    .rowTable.sidebar-opened{
+        padding-top: 24px;
+    }
+
+    .sidebarK{
+        display: none;
+    }
+
+    .sidebarK.show{
+        display: block;
+        padding: 3.5%;
+        min-height: 100vh;
+    }
+
+    .sidebarS{
+        display: block;
+        position: absolute;
+        z-index: 999;
+        background: #f3f2ed;
+        min-height: 100%;
+    }
+
+    .tabSidebarS{
+        display: flex;
+        padding-top: 20px;
+    }
+
+    .avatarSidebarS{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .infaSidebarS{
+        padding-left: 5px;
+        width: 200px;
+    }
+    
+    .numberSidebarS{
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+
+    .contentMain.sidebar-opened{
+        padding-left: 20px;
+    }
+
+    main {
+        margin-left: 0%;
+        padding-left: 4%;
+        padding-right: 2%;
+    }
+    .wayHeader{
+        margin-left: 0%;
+        padding-left: 1%;
+        padding-right: 2%;  
+    }
+
+    .imgTriangleSide{
+        position: absolute;
+        left: 0px;
+        margin-top: 200px;
+        width: 30px;
+    }
+
+    .imgTriangleSide.open{
+        margin-left: 98%;
+    }
+}
